@@ -1,7 +1,7 @@
 {
   "name": "waterline-rabbitmq-simple",
-  "version": "0.1.2",
-  "description": "rabbitmq asapter for sails/waterline, removed a lot of functionality from sails-rabbitmq",
+  "version": "0.1.3",
+  "description": "rabbitmq adapter for sails/waterline, removed a lot of functionality from sails-rabbitmq",
   "main": "dist/adapter.js",
   "scripts": {
     "prepublish": "gulp build",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tjwebb/sails-rabbitmq.git"
+    "url": "https://github.com/DevAlien/waterline-rabbitmq-simple"
   },
   "keywords": [
     "waterline-rabbitmq-simple",
