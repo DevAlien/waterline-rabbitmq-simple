@@ -1,7 +1,7 @@
 {
-  "name": "sails-rabbitmq",
-  "version": "0.12.2",
-  "description": "sails-rabbitmq adapter for Sails / Waterline",
+  "name": "waterline-rabbitmq-simple",
+  "version": "0.1.2",
+  "description": "rabbitmq asapter for sails/waterline, removed a lot of functionality from sails-rabbitmq",
   "main": "dist/adapter.js",
   "scripts": {
     "prepublish": "gulp build",
@@ -12,6 +12,8 @@
     "url": "git://github.com/tjwebb/sails-rabbitmq.git"
   },
   "keywords": [
+    "waterline-rabbitmq-simple",
+    "waterline-rabbitmq",
     "sails-rabbitmq",
     "rabbit",
     "rabbitmq",
@@ -22,7 +24,7 @@
     "sails.js",
     "plugin"
   ],
-  "author": "Travis Webb <me@traviswebb.com>",
+  "author": "Goncalo Margalho <g@margalho.info>",
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
@@ -40,10 +42,7 @@
     "waterline": "^0.10.23"
   },
   "waterlineAdapter": {
-    "type": "sails-rabbitmq",
-    "interfaces": [
-      "pubsub"
-    ],
+    "type": "waterline-rabbitmq-simple",
     "waterlineVersion": "^0.10"
   },
   "eslintConfig": {
